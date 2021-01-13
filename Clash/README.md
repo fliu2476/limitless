@@ -10,7 +10,7 @@
 
 ```ini
 # 网易云解锁节点订阅 
-https://raw.sevencdn.com/echoops/limitless/main/Cookies/Netease
+https://raw.sevencdn.com/echoops/limitless/main/QuantumultX/Netease
 
 # Custom.ini 远程配置 
 https://raw.sevencdn.com/echoops/limitless/main/Clash/Custom.ini
