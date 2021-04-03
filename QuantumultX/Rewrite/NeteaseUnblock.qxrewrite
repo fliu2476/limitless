@@ -1,4 +1,4 @@
 hostname = *.163.com
 
 # > Unblock Netease for oversea use.
-^https?://.*?\.163\.com/eapi/ - request-header (\r\n)(Host:.+)(\r\n) request-header $1$2$1X-Real-IP: 118.88.88.88$1X-Forwarded-For: 118.88.88.88$1
+^https?://.*?\.163\.com/eapi/ url request-header (\r\n)(Host:.+)(\r\n) request-header $1$2$1X-Real-IP: 118.88.88.88$1X-Forwarded-For: 118.88.88.88$1
